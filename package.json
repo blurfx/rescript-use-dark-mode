@@ -1,0 +1,35 @@
+{
+  "name": "rescript-use-dark-mode",
+  "version": "1.0.0",
+  "description": "ReScript bindings for use-dark-mode",
+  "homepage": "https://github.com/blurfx/rescript-use-dark-mode#readme",
+  "bugs": {
+    "url": "https://github.com/blurfx/rescript-use-dark-mode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blurfx/rescript-use-dark-mode.git"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "bsconfig.json",
+    "src/**/*.res"
+  ],
+  "scripts": {
+    "build": "rescript"
+  },
+  "keywords": [
+    "rescript",
+    "use-dark-mode",
+    "usedarkmode"
+  ],
+  "author": "blurfx",
+  "license": "MIT",
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  },
+  "peerDependencies": {
+    "use-dark-mode": "^2.3.1"
+  }
+}
